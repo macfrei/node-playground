@@ -1,0 +1,23 @@
+{
+  "name": "node-playground",
+  "version": "1.0.0",
+  "description": "This repo will be used to thoroughly learn node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macfrei/node-playground.git"
+  },
+  "keywords": [],
+  "author": "Lene Frei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macfrei/node-playground/issues"
+  },
+  "homepage": "https://github.com/macfrei/node-playground#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
