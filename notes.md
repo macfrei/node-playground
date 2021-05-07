@@ -27,8 +27,8 @@
 - Run REPL (Read Evaluate Print Loop) `node`
   - Used to enter and run JavaScript code, like the console in the browser
   - Interactive, with autocomplete, JavaScript objects
-  - `Number .` + `tab` would print all properties and methods _(did not work)_
-  - `global .` + `tab` would print all global objects _(did not work)_
+  - `Number .` + `tab tab` would print all properties and methods
+  - `global .` + `tab tab` would print all global objects
   - REPL knows when typing multi-line statements; e. g. when writing a function or iteration
 - Able to pass any number of arguments when running Node.js `node index.js joe`
   - Can be retrieved by using `process` object build into Node.js
@@ -43,3 +43,13 @@
 - https://nodejs.org/api/
 - https://www.redhat.com/en/topics/api/what-is-a-rest-api
 - https://www.freecodecamp.org/learn/apis-and-microservices/#basic-node-and-express
+
+## Resources
+
+- https://nodecli.com/node-stdin-stdout
+- https://www.geeksforgeeks.org/node-js-process-stdin-property/
+
+## Repos
+
+- https://github.com/badabam/node-playground
+- https://github.com/badabam/file-generator
