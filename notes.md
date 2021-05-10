@@ -37,6 +37,20 @@
     - [1]: full path of file being axecuted
     - [2]...: All aditional arguments
 
+### Event Loop
+
+- Node.js JavaScript code runs single threaded, one thing happening at a time
+- Write clean code and avoid anything like synchronous network calls or infinite loops
+- Code which takes too long will block execution of other code
+- Call stack: LIFO (Last In, First Out)
+  - Event loop checks if any function needs to be run
+  - If yes, adds to call stack and executes one function after another
+  - Asynchronous functionality: callback function put in _Message Queue_ and called after call stack is done [example](https://nodejs.dev/learn/the-nodejs-event-loop) (setTimeout...)
+  - _Job Queue_ used by promises, to execute result of async function as soon as possible and not put it at the end of call stack
+  - Callback functions; simple function which is passed to another function and will execute when the event happens
+  - Error handling: first parameter is error object (Node.js) ?
+  - Alternative to callbacks: promises & async/await
+
 ## Read
 
 - https://nodejs.dev/learn/run-nodejs-scripts-from-the-command-line
