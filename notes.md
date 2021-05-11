@@ -67,3 +67,5 @@
 
 - https://github.com/badabam/node-playground
 - https://github.com/badabam/file-generator
+
+- https://github.com/badabam/lean-coffee-board/commits/main?after=01b1666956a9f1579b0d231375e5c4020e7e7dd7+34&branch=main
